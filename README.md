@@ -12,7 +12,7 @@ A comprehensive Playwright test suite for NASA Image and Video Library and Open 
 
 1. **Clone or extract the repository**
    ```
-   cd nasa-image-video-library-tests
+   git clone https://github.com/mtufailkhan/PlaywrightAssessmentRepo.git
    ```
 
 2. **Install dependencies**
