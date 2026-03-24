@@ -1,0 +1,35 @@
+{
+  "name": "nasa-image-video-library-tests",
+  "version": "1.0.0",
+  "description": "Playwright UI + API tests for NASA Image and Video Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --grep @ui",
+    "test:task2ui": "playwright test --grep @task2ui",
+    "test:task2api": "playwright test --grep @task2api",
+    "test:task2integrated": "playwright test --grep @task2integrated",
+    "test:api": "playwright test --grep @api",
+    "test:integrated": "playwright test --grep @integrated",
+    "test:all": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "nasa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
